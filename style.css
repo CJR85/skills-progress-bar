@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
 }
-
+// Skills class
 .skills h2 {
   font-weight: 400;
   letter-spacing: 1px;
@@ -24,7 +24,7 @@
   color: #fff;
   font-size: 16px;
 }
-
+// Progress-bar class
 .progress-bar {
   background: #959595;
   width: 600px;
@@ -35,7 +35,7 @@
 .progress-bar div {
   height: 10px;
   border-radius: 5px;
-  width: 50%;
+  width: 0%;
 }
 
 .progress-bar div span {
@@ -51,27 +51,32 @@
   align-items: center;
   justify-content: center;
 }
-
+// Progress bars classes
 .html {
   background: #e91e63;
+  animation: html 1s linear forwards;
 }
 
 .css {
   background: #cddc39;
+  animation: css 1s linear forwards;
 }
 
 .javascript {
   background: #00bcd4;
+  animation: javascript 1s linear forwards;
 }
 
 .python {
   background: #ffeb3b;
+  animation: python 1s linear forwards;
 }
 
 .react {
   background: #9c27b0;
+  animation: react 1s linear forwards;
 }
-
+// Skills span classes
 .html span {
   border: 1px solid #e91e63;
 }
@@ -90,4 +95,35 @@
 
 .react span {
   border: 1px solid #9c27b0;
+}
+
+// Animation keyframes
+@keyframes html {
+  100% {
+    width: 86%;
+  }
+}
+
+@keyframes css {
+  100% {
+    width: 72%;
+  }
+}
+
+@keyframes javascript {
+  100% {
+    width: 64%;
+  }
+}
+
+@keyframes python {
+  100% {
+    width: 52%;
+  }
+}
+
+@keyframes react {
+  100% {
+    width: 50%;
+  }
 }
