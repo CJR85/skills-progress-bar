@@ -71,3 +71,23 @@
 .react {
   background: #9c27b0;
 }
+
+.html span {
+  border: 1px solid #e91e63;
+}
+
+.css span {
+  border: 1px solid #cddc39;
+}
+
+.javascript span {
+  border: 1px solid #00bcd4;
+}
+
+.python span {
+  border: 1px solid #ffeb3b;
+}
+
+.react span {
+  border: 1px solid #9c27b0;
+}
